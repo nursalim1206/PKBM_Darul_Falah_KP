@@ -1,0 +1,251 @@
+<resources>
+
+    <style name="daftar">
+
+        <item name="android:textSize">
+            28sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="laman_utama">
+
+        <item name="android:textSize">
+            25sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <style name="sistem_info">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #535353
+        </item>
+
+    </style>
+
+    <style name="profile">
+
+        <item name="android:textSize">
+            25sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="profile_lembaga">
+
+        <item name="android:textSize">
+            25sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="ajukan_peru">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #22A2D9
+        </item>
+
+    </style>
+
+    <style name="bag_kiri">
+
+        <item name="android:textSize">
+            10sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="bag_kanan">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="masuk">
+
+        <item name="android:textSize">
+            28sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="pkbm_atas">
+
+        <item name="android:textSize">
+            15sp
+        </item>
+
+        <item name="android:textColor">
+            #535353
+        </item>
+
+    </style>
+
+    <style name="sia">
+
+        <item name="android:textSize">
+            10sp
+        </item>
+
+        <item name="android:textColor">
+            #535353
+        </item>
+
+    </style>
+
+    <style name="bawah_form">
+
+        <item name="android:textSize">
+            11sp
+        </item>
+
+        <item name="android:textColor">
+            #535353
+        </item>
+
+    </style>
+
+    <style name="bawah_form_2">
+
+        <item name="android:textSize">
+            11sp
+        </item>
+
+        <item name="android:textColor">
+            #22A2D9
+        </item>
+
+    </style>
+
+    <style name="tengah_form">
+
+        <item name="android:textSize">
+            13sp
+        </item>
+
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+
+    <style name="info_pkbm">
+
+        <item name="android:textSize">
+            8sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+
+    <style name="tengah_form_2">
+
+        <item name="android:textSize">
+            11sp
+        </item>
+
+        <item name="android:textColor">
+            #535353
+        </item>
+
+    </style>
+
+    <style name="penjelasan_pkbm">
+
+        <item name="android:textSize">
+            10sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="foto_gedung">
+
+        <item name="android:textSize">
+            13sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="font_infokananatas">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="c">
+
+        <item name="android:textSize">
+            60sp
+        </item>
+
+        <item name="android:textColor">
+            #5C9C9C9C
+        </item>
+
+    </style>
+
+    <style name="info_kelas_nama">
+
+        <item name="android:textSize">
+            9sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+</resources>

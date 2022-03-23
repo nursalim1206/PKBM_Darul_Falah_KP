@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Log_In_Form">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+
+            android:id="@+id/login_password"
+            android:layout_width="256.5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="77dp"
+            android:layout_marginTop="316dp"
+            android:background="@color/white"
+            android:hint="Masukkan Password">
+
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/login_email"
+            android:layout_width="256.5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="77dp"
+            android:layout_marginTop="245dp"
+            android:background="@color/white"
+            android:hint="Masukkan Username">
+
+        </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/mask_group">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/masuk"
+        android:layout_width="97dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="157dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="135dp"
+        android:text="Masuk"
+        android:textAppearance="@style/masuk"
+        android:textStyle="bold"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:id="@+id/pkbm_darul_"
+        android:layout_width="142dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:text="PKBM Darul Falah"
+        android:textAppearance="@style/pkbm_atas"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/sistem_info"
+        android:layout_width="138dp"
+        android:layout_height="12dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="Sistem Informasi Akademik"
+        android:textAppearance="@style/sia"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="66dp"
+        android:layout_height="13dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="217dp"
+        android:text="USERNAME"
+        android:textAppearance="@style/tengah_form_2"
+        android:gravity="top"
+        />
+
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="67dp"
+        android:layout_height="13dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="305dp"
+        android:gravity="top"
+        android:text="PASSWORD"
+        android:textAppearance="@style/tengah_form_2" />
+
+
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="13dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="441dp"
+        android:text="Lupa Password?"
+        android:textAppearance="@style/bawah_form"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:layout_width="111dp"
+        android:layout_height="13dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="478dp"
+        android:text="Belum Punya Akun?"
+        android:textAppearance="@style/bawah_form"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/bantuan"
+        android:layout_width="49dp"
+        android:layout_height="13dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="173dp"
+        android:layout_marginTop="441dp"
+        android:gravity="top"
+        android:text="Bantuan"
+        android:textAppearance="@style/bawah_form_2" />
+
+    <TextView
+        android:id="@+id/tombol_daftar"
+        android:layout_width="35dp"
+        android:layout_height="13dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="193dp"
+        android:layout_marginTop="478dp"
+        android:gravity="top"
+        android:text="Daftar"
+        android:textAppearance="@style/bawah_form_2" />
+
+    <Button
+        android:id="@+id/tombol_masuk"
+        android:layout_width="78dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="385dp"
+        android:background="#00000000"
+        android:gravity="right|top"
+        android:text="Masuk"
+        android:textAppearance="@style/tengah_form"
+        android:textColor="#22A2D9" />
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="411dp"
+        android:layout_height="137dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="595dp"
+        android:background="@drawable/border_hitam_form"
+        />
+
+    <TextView
+        android:layout_width="265dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="605dp"
+        android:text="@string/info_pkbm"
+        android:textAppearance="@style/info_pkbm"
+        android:gravity="top"
+        />
+</RelativeLayout>

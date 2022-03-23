@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">PKBM Darul Falah</string>
+    <string name="daftar">
+
+        Daftar
+    </string>
+    <string name="laman_utama">
+
+    Laman Utama
+    </string>
+
+    <string name="sistem_info">
+
+Sistem Informasi PKBM Darul Falah\nv0.1 \u00C2\u00A92021
+</string>
+
+    <string name="profile">
+
+    Profil
+    </string>
+
+    <string name="profile_lembaga">
+
+    Profil Lembaga
+    </string>
+    <string name="ajukan_peru">Ajukan Perubahan</string>
+    <string name="info_pkbm">PKBM Darul Falah NPSN P2965829, Desa Buaran RT. 04 RW. 01, Kecamatan Mayong Jepara - Jawa Tengah</string>
+    <string name="penjelasan_pkbm">PKBM darul Falah adalah</string>
+
+    <string name="c">
+C
+</string>
+
+
+</resources>
