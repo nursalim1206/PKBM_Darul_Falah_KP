@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Dashboard">
-
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="63dp"
@@ -33,57 +36,156 @@
             android:layout_marginTop="12dp"
             android:src="@drawable/mask_group" />
 
-
-        <View
-            android:id="@+id/ellipse_4"
-            android:layout_width="157dp"
-            android:layout_height="157dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="124dp"
-            android:layout_marginTop="226dp"
-            android:background="@drawable/bulat" />
+        <ImageView
+            android:layout_width="307dp"
+            android:layout_height="237dp"
+            android:layout_alignStart="@+id/profile"
+            android:layout_alignTop="@+id/profile"
+            android:layout_alignEnd="@+id/profile"
+            android:layout_alignBottom="@+id/profile"
+            android:layout_marginStart="-186dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="-287dp"
+            android:src="@drawable/logo_new" />
 
         <TextView
-            android:id="@+id/pkbm_darul_"
-            android:layout_width="313dp"
-            android:layout_height="53dp"
+            android:id="@+id/email_pkbm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginLeft="1dp"
-            android:layout_marginTop="426dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="626dp"
             android:gravity="top"
-            android:text="Alamat: Jalan Mayong Pule No.KM 4, RT.04/RW.01, Kasong Penar, Buaran, Kec. Mayong, Kabupaten Jepara, Jawa Tengah 59465"
+            android:text="pkbmdarulfalah@gmail.com"
             android:textAppearance="@style/penjelasan_pkbm" />
 
         <TextView
-            android:id="@+id/pkbm_darul_"
-            android:layout_width="313dp"
-            android:layout_height="53dp"
+            android:id="@+id/pkbm_darul_8"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:layout_marginLeft="-4dp"
-            android:layout_marginTop="487dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="640dp"
             android:gravity="top"
-            android:text=" Guru : 5
-  Siswa Laki-laki : 110
-  Siswa Perempuan : 45"
+            android:text=" nomor telepon"
             android:textAppearance="@style/penjelasan_pkbm" />
 
         <TextView
-            android:id="@+id/sistem_info"
+            android:id="@+id/pkbm_darul_9"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="653dp"
+            android:gravity="top"
+            android:text=" Abdul Qohar, S.Pd.I                           082138297099"
+            android:textAppearance="@style/penjelasan_pkbm" />
+
+        <TextView
+            android:id="@+id/pkbm_darul_10"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="667dp"
+            android:gravity="top"
+            android:text=" Muhammad Mutohar, S.Pd             082213315046"
+            android:textAppearance="@style/penjelasan_pkbm" />
+
+        <TextView
+            android:id="@+id/pkbm_darul_11"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="682dp"
+            android:gravity="top"
+            android:text=" Youtube"
+            android:textAppearance="@style/penjelasan_pkbm" />
+
+        <TextView
+            android:id="@+id/youtube_pkbm"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="694dp"
+            android:gravity="top"
+            android:text=" https://www.youtube.com/channel/UCZUoYqAsI0SAub1ss5mSv-Q"
+            android:textAppearance="@style/penjelasan_pkbm" />
+
+        <TextView
+            android:id="@+id/pkbm_darul_13"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="709dp"
+            android:gravity="top"
+            android:text=" alamat"
+            android:textAppearance="@style/penjelasan_pkbm" />
+
+        <TextView
+            android:id="@+id/pkbm_darul_14"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="724dp"
+            android:gravity="top"
+            android:text=" Alamat
+Desa Buaran RT. 04 RW. 01, Kel. Buaran, Kec. Mayong
+Kab. Jepara, Jawa Tengah"
+            android:textAppearance="@style/penjelasan_pkbm" />
+
+        <TextView
+            android:id="@+id/pkbm_darul_5"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="366dp"
+            android:gravity="top"
+            android:text="Visi\nTerwujudnya Masyarakat Yang beriman, Bertaqwa, Berbudi Luhur, Terampil, Dan Gemar Membaca\n\nMisi\n1.\tMengembangkan Sumber Daya Manusia (SDM) yang berkualitas\u000D\n2.\tMenciptakan kesempatan belajar\u000D\n3.\tMembangkitkan kemauan belajar\u000D\n4.\tMemandirikan warga belajar\n\nTujuan\n1.\tMelaksanakan Pendidikan Non-Formal dan Informal\u000D\n2.\tMemberdayakan masyarakat melaluio progam pembelajaran latihan keterampilan (life skill) dan membentuk unit-unit usaha dengan menggali segenap potensi yang ada\u000D\n3.\tMelaksanakan pelatihan Tutor, NST, dan pelatihan-pelatihan lain\u000D\n4.\tMembantu progam pemerintah dalam bidang pembangunan manusia seutuhnya\u000D\n5.\tMeningkatkan taraf hidup serta memperbaiki lingkungan hidup sehat\u000D\n
+
+"
+            android:textAppearance="@style/penjelasan_pkbm" />
+
+        <TextView
+            android:id="@+id/pkbm_darul_2"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="611dp"
+            android:gravity="top"
+            android:text=" Alamat e-mail"
+            android:textAppearance="@style/penjelasan_pkbm" />
+
+                <TextView
             android:layout_width="170dp"
             android:layout_height="50dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="125dp"
-            android:layout_marginTop="730dp"
+            android:layout_marginTop="830dp"
             android:gravity="center_horizontal|top"
             android:text="@string/sistem_info"
             android:textAppearance="@style/sistem_info" />
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="360dp"
-            android:src="@drawable/pkbm" />
+
+
+
 </RelativeLayout>
+        </ScrollView>

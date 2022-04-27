@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/BACKUP NEW FRESH/PKBMDarulFalah_KP-main/app/src/main/res/layout/activity_info_kelas.xml" value="0.2" />
+        <entry key="..\:/BACKUP NEW FRESH/PKBMDarulFalah_KP-main/app/src/main/res/layout/activity_jadwal.xml" value="0.2" />
+        <entry key="..\:/BACKUP NEW FRESH/PKBMDarulFalah_KP-main/app/src/main/res/layout/activity_profile_lembaga.xml" value="0.25" />
+        <entry key="..\:/BACKUP NEW FRESH/PKBMDarulFalah_KP-main/app/src/main/res/layout/activity_splash.xml" value="0.15806159420289856" />
         <entry key="..\:/Kuliah/KP/Projek/Backup/PKBMDarulFalah/app/src/main/res/drawable/add_class.xml" value="0.2703125" />
         <entry key="..\:/Kuliah/KP/Projek/Backup/PKBMDarulFalah/app/src/main/res/drawable/bagian_atas_window.xml" value="0.2005" />
         <entry key="..\:/Kuliah/KP/Projek/Backup/PKBMDarulFalah/app/src/main/res/drawable/bulat_window.xml" value="0.2005" />
@@ -63,7 +67,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
